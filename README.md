@@ -4,6 +4,7 @@
 - npm run dev
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
+- npm i nanoid react-icons
 
 // other steps
 - change name to tailwind.config.csj
