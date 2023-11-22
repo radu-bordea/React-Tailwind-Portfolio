@@ -4,6 +4,22 @@ html {
     background-color: rgb(30 27 75);
     color: rgba(85, 85, 155, 0.966)
 }
+
+/* Add this CSS to your stylesheet or Tailwind CSS configuration */
+.custom-slick-dots {
+  .slick-dots {
+    margin-top: 2px; /* Adjust the position as needed */
+  }
+  .slick-dots li button:before {
+    color: white !important;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: white !important;
+  }
+}
+
+
 @tailwind components;
 @tailwind utilities;
 

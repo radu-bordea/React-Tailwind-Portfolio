@@ -19,9 +19,9 @@ const Projects = () => {
   };
 
   return (
-    <section className="bg-slate-950 py-2 align-element" id="projects">
+    <section className=" py-8 align-element" id="projects">
       <SectionTitle text="web creation" />
-      <Slider {...settings}>
+      <Slider {...settings} className="custom-slick-dots">
         {projects.map((project) => (
           <ProjectsCard key={project.id} {...project} />
         ))}
