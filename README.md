@@ -5,6 +5,8 @@
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 - npm i nanoid react-icons
+- npm install react-slick --save
+- npm install slick-carousel --save
 
 // other steps
 - change name to tailwind.config.csj

@@ -42,7 +42,7 @@ export const projects = [
     url: "https://react-menu-categories.netlify.app/",
     github: "https://github.com/radu-bordea/React-Menu.git",
     title: "first project",
-    text: "Crafted with elegance, this React-based menu app presents a delightful collection of recipe cards. Seamlessly categorized, it allows users to explore and select their preferred recipes, ensuring a tasteful culinary experience.",
+    text: "Crafted with elegance, this React-based menu app presents a delightful collection of recipe cards.",
   },
   {
     id: nanoid(),
@@ -50,7 +50,7 @@ export const projects = [
     url: "https://react-typescript-todo-list-task.netlify.app/",
     github: "https://github.com/radu-bordea/ReactTypescript-todoList.git",
     title: "second project",
-    text: "Elevating task management, this React-driven todo list combines functionality with style. The intuitive drag-and-drop feature and local storage integration provide a streamlined experience, making organization a seamless and visually pleasing task.",
+    text: "Elevating task management, this React-driven todo list combines functionality with style.",
   },
   {
     id: nanoid(),
@@ -58,7 +58,7 @@ export const projects = [
     url: "https://react-tours-offer.netlify.app/",
     github: "https://github.com/radu-bordea/React-Tours.git",
     title: "third project",
-    text: "Navigate through travel possibilities effortlessly with this React-powered tour list. Featuring interactive cards, users can easily delete unwanted options, ensuring a personalized exploration experience. It's a sleek solution for planning your next adventure.",
+    text: "Navigate through travel possibilities effortlessly with this React-powered tour list.",
   },
   {
     id: nanoid(),
@@ -66,7 +66,7 @@ export const projects = [
     url: "https://react-reviews-users.netlify.app/",
     github: "https://github.com/radu-bordea/React-Reviews.git",
     title: "fourth project",
-    text: "Experience the elegance of user interaction with this React-based profile card component. Seamlessly cycle through profiles with buttons for previous, next, or even a random selection. The design ensures a visually appealing and engaging journey through user profiles.",
+    text: "Experience the elegance of user interaction with this React-based profile card component.",
   },
   {
     id: nanoid(),
@@ -74,7 +74,7 @@ export const projects = [
     url: "https://portofolio-radu-bordea.netlify.app/",
     github: "https://github.com/radu-bordea/Portofolio-Radu.B.git",
     title: "fifth project",
-    text: "Immerse yourself in the elegance of my portfolio website, where the fusion of HTML, CSS, JavaScript, and React creates a captivating user experience. From seamless navigation to visually stunning displays, this website showcases the art of web development.",
+    text: "Immerse yourself in the elegance of my portfolio website, where the fusion of HTML, CSS, JavaScript, and React.",
   },
   {
     id: nanoid(),
@@ -83,6 +83,6 @@ export const projects = [
     github:
       "https://github.com/radu-bordea/OnlineEducationResponsiveDesign.git",
     title: "sixth project",
-    text: "Designed for learning with finesse, this web design platform elegantly combines HTML, CSS, and jQuery. Providing an enriching experience, it empowers users to grasp the intricacies of web design, making education a visually pleasing and interactive journey.",
+    text: "Designed for learning with finesse, this web design platform elegantly combines HTML, CSS, and jQuery.",
   },
 ];
