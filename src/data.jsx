@@ -38,7 +38,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: { project1 },
+    img: project1,
     url: "https://react-menu-categories.netlify.app/",
     github: "https://github.com/radu-bordea/React-Menu.git",
     title: "first project",
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: { project2 },
+    img: project2,
     url: "https://react-typescript-todo-list-task.netlify.app/",
     github: "https://github.com/radu-bordea/ReactTypescript-todoList.git",
     title: "second project",
@@ -54,7 +54,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: { project3 },
+    img: project3,
     url: "https://react-tours-offer.netlify.app/",
     github: "https://github.com/radu-bordea/React-Tours.git",
     title: "third project",
@@ -62,7 +62,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: { project4 },
+    img: project4,
     url: "https://react-reviews-users.netlify.app/",
     github: "https://github.com/radu-bordea/React-Reviews.git",
     title: "fourth project",
@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: { project5 },
+    img: project5,
     url: "https://portofolio-radu-bordea.netlify.app/",
     github: "https://github.com/radu-bordea/Portofolio-Radu.B.git",
     title: "fifth project",
@@ -78,7 +78,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: { project6 },
+    img: project6,
     url: "https://online-education-javascript.netlify.app/",
     github:
       "https://github.com/radu-bordea/OnlineEducationResponsiveDesign.git",
