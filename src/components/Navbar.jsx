@@ -3,7 +3,7 @@ import { links } from "../data";
 
 const Navbar = () => {
   return (
-    <div className="bg-teal-100">
+    <div className="bg-indigo-950">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold">
           Web <span className="text-teal-500">Dev</span>
@@ -11,7 +11,15 @@ const Navbar = () => {
         <div className="flex gap-x-3">
           {links.map((link) => {
             const { id, href, text } = link;
-            return <a href={href} key={id} className="capitalize text-lg tracking-wide hover:text-teal-600 duration-300">{text}</a>
+            return (
+              <a
+                href={href}
+                key={id}
+                className="capitalize text-lg tracking-wide hover:text-teal-600 duration-300"
+              >
+                {text}
+              </a>
+            );
           })}
         </div>
       </div>
