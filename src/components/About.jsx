@@ -9,7 +9,7 @@ const About = () => {
         <img src={aboutSvg} className="w-full h-64" />
         <article>
           <SectionTitle text="code and code" />
-          <p className="text-slate-600 leading-loose">
+          <p className="text-indigo-300 leading-loose">
             As a student IT developer at Åland University of Applied Sciences in
             Finland, my passion lies in coding, and I thoroughly enjoy working
             with technologies such as JavaScript, React, React-Native, Flutter,
