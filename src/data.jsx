@@ -68,21 +68,4 @@ export const projects = [
     title: "fourth project",
     text: "Experience the elegance of user interaction with this React-based profile card component.",
   },
-  {
-    id: nanoid(),
-    img: project5,
-    url: "https://portofolio-radu-bordea.netlify.app/",
-    github: "https://github.com/radu-bordea/Portofolio-Radu.B.git",
-    title: "fifth project",
-    text: "Immerse yourself in the elegance of my portfolio website, where the fusion of HTML, CSS, JavaScript, and React.",
-  },
-  {
-    id: nanoid(),
-    img: project6,
-    url: "https://online-education-javascript.netlify.app/",
-    github:
-      "https://github.com/radu-bordea/OnlineEducationResponsiveDesign.git",
-    title: "sixth project",
-    text: "Designed for learning with finesse, this web design platform elegantly combines HTML, CSS, and jQuery.",
-  },
 ];
