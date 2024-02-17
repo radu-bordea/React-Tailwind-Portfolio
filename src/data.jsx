@@ -76,4 +76,12 @@ export const projects = [
     title: "fifth project",
     text: "Experience the elegance of user interaction with this React-based profile card component.",
   },
+  {
+    id: nanoid(),
+    img: project6,
+    url: "https://react-mixdrinks.netlify.app/",
+    github: "https://github.com/radu-bordea/React-MixDrinks.git",
+    title: "sixth project",
+    text: "Explore an array of tantalizing cocktails with our React app powered by the CocktailAPI. Discover, mix, and savor!",
+  },
 ];
