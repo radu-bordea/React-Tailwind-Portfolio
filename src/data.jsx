@@ -39,7 +39,7 @@ export const projects = [
     img: project1,
     url: "https://react-unsplash-pics.netlify.app/",
     github: "https://github.com/radu-bordea/React-UnsplashProject.git",
-    title: "first project",
+    title: "Pictures",
     text: "Discover breathtaking images effortlessly React app, powered by the Unsplash API.",
   },
   {
@@ -47,7 +47,7 @@ export const projects = [
     img: project2,
     url: "https://react-mixdrinks.netlify.app/",
     github: "https://github.com/radu-bordea/React-MixDrinks.git",
-    title: "sixth project",
+    title: "Cocktails",
     text: "Explore an array of tantalizing cocktails with our React app powered by the CocktailAPI. Discover, mix, and savor!",
   },
   {
@@ -55,7 +55,7 @@ export const projects = [
     img: project3,
     url: "https://react-typescript-todo-list-task.netlify.app/",
     github: "https://github.com/radu-bordea/ReactTypescript-todoList.git",
-    title: "third project",
+    title: "To-Do List",
     text: "Elevating task management, this React-driven todo list combines functionality with style.",
   },
   {
@@ -63,7 +63,7 @@ export const projects = [
     img: project4,
     url: "https://react-fly-map.netlify.app/",
     github: "https://github.com/radu-bordea/React-Map-Tailwind-Typescript.git",
-    title: "seventh project",
+    title: "Cities Map",
     text: "Explore cities with ease! React-Tailwind-Typescript app lets you discover and search cities on an interactive map.",
   },
 ];
