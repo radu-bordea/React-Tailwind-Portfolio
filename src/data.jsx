@@ -6,6 +6,7 @@ import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
 import project5 from "./assets/project5.png";
 import project6 from "./assets/project6.png";
+import project7 from "./assets/project6.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -83,5 +84,13 @@ export const projects = [
     github: "https://github.com/radu-bordea/React-MixDrinks.git",
     title: "sixth project",
     text: "Explore an array of tantalizing cocktails with our React app powered by the CocktailAPI. Discover, mix, and savor!",
+  },
+  {
+    id: nanoid(),
+    img: project7,
+    url: "e4a20ad96c681835e08d734ea79ad5a5ce038e152ed72f59922ee2518ec9adf4",
+    github: "https://github.com/radu-bordea/React-Map-Tailwind-Typescript.git",
+    title: "seventh project",
+    text: "Explore cities with ease! React-Tailwind-Typescript app lets you discover and search cities on an interactive map.",
   },
 ];
