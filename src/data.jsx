@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
@@ -30,6 +30,12 @@ export const skills = [
     title: "React",
     icon: <FaReact className="h-16 w-16 text-teal-500" />,
     text: "Venturing into the world of frontend development, I've acquired a moderate proficiency in React. My introduction to this powerful library began with school projects, and I subsequently deepened my understanding through Udemy courses and personal initiatives. Leveraging React, I've developed reusable components and interactive user interfaces. My grasp of state management, component lifecycles, and routing showcases my ability to create dynamic, efficient, and scalable web applications. As a developer, I'm committed to staying abreast of React's latest advancements and refining my skills through hands-on experience..",
+  },
+  {
+    id: nanoid(),
+    title: "NodeJS & ExpressJs",
+    icon: < FaNodeJs className="h-16 w-16 text-teal-500" />,
+    text: "I had been proficient in Node.js and Express, with experience in developing scalable server-side applications. I had created RESTful APIs and integrated middleware for authentication, logging, and error handling. I had managed databases with MongoDB Atlas, optimized queries, and performed data migrations. I had developed front-end interfaces using React, ensuring seamless integration with back-end services. I had applied asynchronous programming techniques and security best practices.",
   },
 ];
 
