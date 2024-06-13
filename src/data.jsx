@@ -4,6 +4,7 @@ import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
+import project5 from "./assets/project5.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -34,7 +35,7 @@ export const skills = [
   {
     id: nanoid(),
     title: "NodeJS & ExpressJs",
-    icon: < FaNodeJs className="h-16 w-16 text-teal-500" />,
+    icon: <FaNodeJs className="h-16 w-16 text-teal-500" />,
     text: "I had been proficient in Node.js and Express, with experience in developing scalable server-side applications. I had created RESTful APIs and integrated middleware for authentication, logging, and error handling. I had managed databases with MongoDB Atlas, optimized queries, and performed data migrations. I had developed front-end interfaces using React, ensuring seamless integration with back-end services. I had applied asynchronous programming techniques and security best practices.",
   },
 ];
@@ -43,10 +44,10 @@ export const projects = [
   {
     id: nanoid(),
     img: project1,
-    url: "https://react-unsplash-pics.netlify.app/",
-    github: "https://github.com/radu-bordea/React-UnsplashProject.git",
-    title: "Pictures",
-    text: "Discover breathtaking images effortlessly React app, powered by the Unsplash API.",
+    url: "https://react-buy-in-store.netlify.app/",
+    github: "https://github.com/radu-bordea/ReactStore.git",
+    title: "React Store App",
+    text: "Check out our React Store application, featuring Redux Toolkit for state management, React Query, and Tailwind CSS.",
   },
   {
     id: nanoid(),
@@ -59,10 +60,10 @@ export const projects = [
   {
     id: nanoid(),
     img: project3,
-    url: "https://react-typescript-todo-list-task.netlify.app/",
-    github: "https://github.com/radu-bordea/ReactTypescript-todoList.git",
-    title: "To-Do List",
-    text: "Elevating task management, this React-driven todo list combines functionality with style.",
+    url: "https://react-unsplash-pics.netlify.app/",
+    github: "https://github.com/radu-bordea/React-UnsplashProject.git",
+    title: "Pictures",
+    text: "Discover breathtaking images effortlessly React app, powered by the Unsplash API.",
   },
   {
     id: nanoid(),
@@ -71,5 +72,13 @@ export const projects = [
     github: "https://github.com/radu-bordea/React-Map-Tailwind-Typescript.git",
     title: "Cities Map",
     text: "Explore cities with ease! React-Tailwind-Typescript app lets you discover and search cities on an interactive map.",
+  },
+  {
+    id: nanoid(),
+    img: project5,
+    url: "https://react-typescript-todo-list-task.netlify.app/",
+    github: "https://github.com/radu-bordea/ReactTypescript-todoList.git",
+    title: "To-Do List",
+    text: "Elevating task management, this React-driven todo list combines functionality with style.",
   },
 ];
