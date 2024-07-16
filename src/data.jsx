@@ -1,6 +1,5 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
@@ -41,14 +40,6 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: nanoid(),
-    img: project1,
-    url: "https://react-buy-in-store.netlify.app/",
-    github: "https://github.com/radu-bordea/ReactStore.git",
-    title: "React Store App",
-    text: "Check out our React Store application, featuring Redux Toolkit for state management, React Query, and Tailwind CSS.",
-  },
   {
     id: nanoid(),
     img: project2,

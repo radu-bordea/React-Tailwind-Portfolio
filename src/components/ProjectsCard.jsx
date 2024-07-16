@@ -19,7 +19,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
         </p>
         <div className="mt-4 flex gap-x-4">
           <a href={url}>
-            <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-slate-400 duration-300" />
+             <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-slate-400 duration-300" />
           </a>
           <a href={github}>
             <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-slate-400 duration-300" />
