@@ -1,9 +1,12 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiBootstrap } from "react-icons/si";
+import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
 import project5 from "./assets/project5.png";
+import project6 from "./assets/project6.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -37,12 +40,34 @@ export const skills = [
     icon: <FaNodeJs className="h-16 w-16 text-teal-500" />,
     text: "I had been proficient in Node.js and Express, with experience in developing scalable server-side applications. I had created RESTful APIs and integrated middleware for authentication, logging, and error handling. I had managed databases with MongoDB Atlas, optimized queries, and performed data migrations. I had developed front-end interfaces using React, ensuring seamless integration with back-end services. I had applied asynchronous programming techniques and security best practices.",
   },
+  {
+    id: nanoid(),
+    title: "Bootsrap",
+    icon: <SiBootstrap className="h-16 w-16 text-teal-500" />,
+    text: "I have hands-on experience with Bootstrap, working on projects like BeHives and Babyshop. In BeHives, I developed responsive layouts and streamlined the UI for better user engagement. For Babyshop, I crafted mobile-first e-commerce interfaces, ensuring a smooth and consistent user experience across devices, focusing on aesthetics and functionality with Bootstrap components.",
+  },
 ];
 
 export const projects = [
   {
     id: nanoid(),
+    img: project1,
+    url: "https://oleksalt-babyshop.onrender.com/",
+    github: "https://github.com/radu-bordea/MERN-eCommerce.git",
+    title: "BabyShop",
+    text: "A modern e-commerce baby shop built with MERN stack, featuring Redux for state management and secure user login functionality.",
+  },
+  {
+    id: nanoid(),
     img: project2,
+    url: "https://bi-project-client.onrender.com/data",
+    github: "https://github.com/radu-bordea/BI-Project.git",
+    title: "BeeHives",
+    text: "A MERN application to visualize temperature, weight, and humidity data from IoT devices installed in beehives for monitoring.",
+  },
+  {
+    id: nanoid(),
+    img: project3,
     url: "https://react-mixdrinks.netlify.app/",
     github: "https://github.com/radu-bordea/React-MixDrinks.git",
     title: "Cocktails",
@@ -50,7 +75,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project3,
+    img: project4,
     url: "https://react-unsplash-pics.netlify.app/",
     github: "https://github.com/radu-bordea/React-UnsplashProject.git",
     title: "Pictures",
@@ -58,7 +83,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project4,
+    img: project5,
     url: "https://react-fly-map.netlify.app/",
     github: "https://github.com/radu-bordea/React-Map-Tailwind-Typescript.git",
     title: "Cities Map",
@@ -66,7 +91,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: project5,
+    img: project6,
     url: "https://react-typescript-todo-list-task.netlify.app/",
     github: "https://github.com/radu-bordea/ReactTypescript-todoList.git",
     title: "To-Do List",
