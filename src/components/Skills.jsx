@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionTitle from './SectionTitle'
 import SkillsCard from './SkillsCard'
 import { skills } from '../data'

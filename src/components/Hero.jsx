@@ -1,4 +1,3 @@
-import React from "react";
 import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
@@ -7,7 +6,7 @@ const Hero = () => {
   const linkedin = "https://www.linkedin.com/in/radu-nicolae-bordea-695155220/"; // Replace with your LinkedIn profile URL
 
   return (
-    <div className="bg-indigo-950 py-24">
+    <div className="bg-teal-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Radu</h1>
