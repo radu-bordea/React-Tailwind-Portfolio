@@ -5,7 +5,6 @@ import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
-import project5 from "./assets/project5.png";
 import project6 from "./assets/project6.png";
 
 export const links = [
@@ -68,10 +67,10 @@ export const projects = [
   {
     id: nanoid(),
     img: project3,
-    url: "https://react-mixdrinks.netlify.app/",
-    github: "https://github.com/radu-bordea/React-MixDrinks.git",
-    title: "Cocktails",
-    text: "Explore an array of tantalizing cocktails with our React app powered by the CocktailAPI. Discover, mix, and savor!",
+    url: "https://radu-3dportfolio.netlify.app/",
+    github: "https://github.com/radu-bordea/REACT-3DPortfolio",
+    title: "ModelingPortfolio",
+    text: "This is a portfolio made in React for me as a new model. I have different fashion pictures on the gallery section.",
   },
   {
     id: nanoid(),
@@ -80,14 +79,6 @@ export const projects = [
     github: "https://github.com/radu-bordea/React-UnsplashProject.git",
     title: "Pictures",
     text: "Discover breathtaking images effortlessly React app, powered by the Unsplash API.",
-  },
-  {
-    id: nanoid(),
-    img: project5,
-    url: "https://react-fly-map.netlify.app/",
-    github: "https://github.com/radu-bordea/React-Map-Tailwind-Typescript.git",
-    title: "Cities Map",
-    text: "Explore cities with ease! React-Tailwind-Typescript app lets you discover and search cities on an interactive map.",
   },
   {
     id: nanoid(),
